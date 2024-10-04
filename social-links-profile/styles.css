@@ -81,3 +81,35 @@ button:hover {
     color: var(--color-grey-700);
     cursor: pointer;
 }
+
+@media(min-width: 900px) {
+    .card {
+        height: 430px;
+        width: 300px;
+        gap: 1em;
+    }
+}
+
+@media(min-width: 1200px) {
+    .card {
+        height: 480px;
+        width: 330px;
+    }
+
+    img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .card-header {
+        font-size: 12px;
+    }
+    
+    .card-header-title {
+        font-size: 18px;
+    }
+
+    button, .card-header-subtitle {
+        font-size: 10px;
+    }
+}
